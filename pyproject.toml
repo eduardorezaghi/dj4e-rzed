@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dj4e-rzed"
+version = "0.1.0"
+description = "Environment for Django 4 Evebody course."
+authors = ["Eduardo Rezaghi <eduardo.rezaghi@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
